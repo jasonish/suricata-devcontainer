@@ -43,6 +43,11 @@ In the DevContainer/Codespace terminal:
     ~/src/suricata-verify/run.py
     ```
 
+## Stop the Codespace
+
+**IMPORTANT**: If running on GitHub Codespaces, stop your codespace when done.
+You only get a certain amount of free hours per month.
+
 ## Other Notes
 
 If running locally and you use SSH to authenticate against GitHub, you can make
