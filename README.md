@@ -1,4 +1,4 @@
-# Suricata Codespace for Users
+# Suricata Codespace for Developers
 
 ## Getting Started
 
