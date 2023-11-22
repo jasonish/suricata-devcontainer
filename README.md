@@ -2,22 +2,29 @@
 
 ## Getting Started
 
-### Using GitHub Codespaces
+To use this Suricata development container you can either run locally
+using VSCode (recommended) or use GitHub codespaces.  Note that GitHub
+codespace time is limited and may incur fees which can be avoided by
+running locally.
 
-- Fork this repo
-- Open as a codespace on GitHub at https://github.com/codespaces (or see next step)
-
-### Running Locally
+### Running Locally (Recommended)
 
 - Clone this repo
 - Open in Visual Studio Code
 - When prompted, "Reopen in Container"
 
+### Using GitHub Codespaces
+
+- Fork this repo
+- Open as a codespace on GitHub at https://github.com/codespaces (or
+  see next step)
+
 ## Build Suricata
 
-Ideally you'd fork the Suricata repo (https://github.com/OISF/suricata) and
-clone from there, however for simplicity this instructions assume you have not.
-In the DevContainer/Codespace terminal:
+Ideally you'd fork the Suricata repo
+(https://github.com/OISF/suricata) and clone from there, however for
+simplicity these instructions assume you have not.  In the
+DevContainer/Codespace terminal:
 
 1. Change directory into the `src` directory: `cd src`
 2. Clone the Suricata repo:
