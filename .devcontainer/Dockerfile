@@ -35,8 +35,3 @@ RUN apt update && \
         sudo \
         zlib1g \
         zlib1g-dev
-
-# Running as a user currently disabled as it does not appear to work
-# well when running as a local devcontainer.
-#RUN useradd -G sudo -d /home/suricata suricata && passwd -d suricata
-#USER suricata
